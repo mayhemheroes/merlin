@@ -55,6 +55,7 @@ jobs:
       matrix:
         mayhemfile:
         - fuzz/mayhemfiles/Mayhemfile_transcript
+        - fuzz/mayhemfiles/Mayhemfile_transcript_rng
     steps:
     - uses: actions/checkout@v3
     - name: Start analysis for ${{ matrix.mayhemfile }}

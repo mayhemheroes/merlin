@@ -23,3 +23,9 @@ name = "transcript"
 path = "fuzz_targets/transcript.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "transcript_rng"
+path = "fuzz_targets/transcript_rng.rs"
+test = false
+doc = false

@@ -19,3 +19,5 @@ FROM --platform=linux/amd64 rustlang/rust:nightly
 ## TODO: Change <Path in Builder Stage>
 
 COPY --from=builder /merlin/fuzz/target/x86_64-unknown-linux-gnu/release/transcript /
+
+COPY --from=builder /merlin/fuzz/target/x86_64-unknown-linux-gnu/release/transcript_rng /

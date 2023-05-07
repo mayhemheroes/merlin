@@ -1,0 +1,7 @@
+project: merlin
+target: transcript_rng
+duration: 90
+
+cmds:
+    - cmd: /transcript_rng
+
