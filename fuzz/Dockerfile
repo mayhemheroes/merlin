@@ -21,3 +21,5 @@ FROM --platform=linux/amd64 rustlang/rust:nightly
 COPY --from=builder /merlin/fuzz/target/x86_64-unknown-linux-gnu/release/transcript /
 
 COPY --from=builder /merlin/fuzz/target/x86_64-unknown-linux-gnu/release/transcript_rng /
+
+COPY --from=builder /merlin/fuzz/target/x86_64-unknown-linux-gnu/release/transcript_finalize /
