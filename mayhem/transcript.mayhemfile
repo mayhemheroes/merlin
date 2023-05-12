@@ -1,0 +1,7 @@
+project: merlin
+target: transcript
+duration: 90
+
+cmds:
+    - cmd: /transcript
+

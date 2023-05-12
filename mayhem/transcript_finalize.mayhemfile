@@ -1,0 +1,7 @@
+project: merlin
+target: transcript_finalize
+duration: 90
+
+cmds:
+    - cmd: /transcript_finalize
+
